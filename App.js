@@ -5,6 +5,9 @@ import Screen1 from './components/Screen1';
 import Screen2 from './components/Screen2';
 import Screen3 from './components/Screen3';
 import Screen4 from './components/Screen4';
+import Screen5 from './components/Screen5';
+import Screen6 from './components/Screen6';
+import Screen7 from './components/Screen7';
 
 export default function App() {
 	const [screen, setScreen] = useState(0);
@@ -50,6 +53,12 @@ export default function App() {
 				return <Screen3 />;
 			case 3:
 				return <Screen4 />;
+			case 4:
+				return <Screen5 />;
+			case 5:
+				return <Screen6 />;
+			case 6:
+				return <Screen7 />;
 			default:
 				return <Screen1 />;
 		}
